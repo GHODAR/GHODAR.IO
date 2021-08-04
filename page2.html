@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formulaire de commande</h2>
+<form action="#">
+  <p><i>Les champs</i><em>*</em> sont <em>obligatoires</em></p>
+  <fieldset>
+    <legend>Contact</legend>
+      <label for="nom">Nom <em>*</em></label>
+     
+      <input id="nom" placeholder="" autofocus="" required=""><br>
+      <label for="telephone">Portable</label>
+     
+      <input id="telephone" type="tel" placeholder="" pattern="06[0-9]{8}"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="" required="" pattern=""><br>
+  </fieldset>
+  <fieldset>
+    <legend>Information personnelles</legend>
+      <label for="age">Age<em>*</em></label>
+      <input id="age" type="number" placeholder="" pattern="" required=""><br>
+      <label for="sexe">Sexe</label>
+      <select id="sexe">
+        <option value="F" name="sexe">Femme</option>
+        <option value="H" name="sexe">Homme</option>
+      </select><br>
+      <label for="comments">Description de commande</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Choisissez votre Hamburger</legend>
+    <label for="chatnoir"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Mega Tomag</label>
+    <label for="oenologie"><input id="oenologie" type="checkbox" name="binet" value="vin"> McLobster</label>
+    <label for="bobar"><input id="bobar" type="checkbox" name="binet" value="bob">Cordon Bleu</label>
+    <label for="Xpara"><input id="Xpara" type="checkbox" name="binet" value="para">McPollo</label>
+    <label for="khomiss"><input id="khomiss" type="checkbox" name="binet" value="???">Carbonara</label>
+    <label for="politix"><input id="politix" type="checkbox" name="binet" value="politix">Tipi</label>
+    <label for="raid"><input id="raid" type="checkbox" name="binet" value="raid"> Binet Raid</label>
+    <label for="Xsoirees"><input id="Xsoirees" type="checkbox" name="binet" value="fiesta">McKebab</label>
+  </fieldset>
+  <p><input type="submit" value="Inscrire"></p>
+</form>
+
+
+</body>
+</html>
